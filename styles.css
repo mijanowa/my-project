@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins' ;
+  background-color: #1C1B18;
+}
+/*header styles*/
+header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  font-size: 13px;
+  position: fixed;
+}
+header .svg-logo {
+  width: 30%;
+  margin: 8px 0 5px 1px;
+}
+header .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+}
+header .nav-links li {
+  list-style-type: none;
+}
+header .nav-links span {
+  color: black;
+  background-color: #FFBA48;
+  border-radius: 10px;
+  padding: 2px;
+}
+header .progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+header .progress-bar {
+  width: 0%;
+  height: 3px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(216, 85, 85);
+}
+main {
+  height: 1000vh;
+}
